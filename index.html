@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criptagram</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./assets/fa_icons/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">CRIPTAGRAM</h1>
+    </header>
+
+    <main class="conteiner">
+      <section class="esquerda">
+        <div>
+          <textarea
+            class="text-area"
+            cols="38"
+            rows="4"
+            placeholder="Digite seu texto"
+          ></textarea>
+        </div>
+
+          <div class="informacoes">
+            <img class="exclamacao" src="./assets/ponto.png" alt="">
+            <h6 class="alerta">Apenas letras minúsculas</h6>
+          </div>
+
+        <div class="botoes">
+          <button class="btn-encriptar" onclick="btnEncriptar()">Codificar</button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">Decodificar</button>
+        </div>
+      </section>
+
+      <section class="direita">
+        <div class="imagem">
+          <img
+            src="./assets/detetive.gif"
+            alt="sherlock holmes"
+            class="image"
+          />
+        </div>
+
+        <div class="area__texto">
+          <textarea
+            class="mensagem"
+            cols="20"
+            rows="6"
+            placeholder="Digite um texto para criptografar ou descriptografar."
+          ></textarea>
+        </div>
+
+        <div class="copiar">
+          <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="rodape">
+        <p class="autor">By Moacir Rocha</p>
+      </div>
+      <div class="contatos">
+        <a href="https://github.com/moacirrochadev"
+          ><i class="fa-brands fa-square-github" style="color: #C69749;"></i
+        ></a>
+
+        <a href="https://www.linkedin.com/in/moacirrochadev/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+
+        <a href="https://www.instagram.com/moacirroneto/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

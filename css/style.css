@@ -1,0 +1,153 @@
+*{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    color: #C69749;
+}
+
+header {
+    margin: 1rem;
+    border-bottom: 2px solid #C69749;
+}
+
+.conteiner {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.esquerda {
+    width: 700px;
+    padding: 2rem;
+}
+
+.text-area {
+    width: 680px;
+    height: 340px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    font-size: 32px;
+    border: 1px solid #735F32;
+    border-radius: 32px;
+    overflow: hidden;
+    resize: none;
+}
+
+.informacoes {
+    width: 252px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;;
+}
+
+.exclamacao {
+    width: 16px;
+    height: 16px;
+}
+
+h6 {
+    color: #735F32;
+}
+
+button {
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.botoes {
+    width: 680px;
+    height: 67px;
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 24px;
+}
+
+.btn-encriptar, .btn-desencriptar {
+    width: 328px;
+    border-radius: 24px;
+}
+
+.btn-encriptar, .btn-desencriptar:hover{
+    background-color: #C69749;
+    color: #282A3A;
+    border: none;
+}
+
+.btn-encriptar:hover, .btn-desencriptar {
+    background-color: #282A3A;
+    color: #C69749;
+    border: 1px solid #C69749;
+}
+
+.direita {
+    background-color: #C69749;
+    width: 400px;
+    height: 750px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+}
+
+.imagem {
+    background-color: #C69749;
+}
+
+.image {
+    width: 336px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.area__texto {
+    background-color: #C69749;
+    margin-top: 3rem;
+}
+
+.mensagem {
+    width: 336px;
+    padding: 1rem;
+    border: none;
+    border-radius: 32px;
+}
+
+.copiar {
+    width: 328px;
+    margin-top: 2.5rem;
+    background-color: #C69749;
+    height: 67px;
+}
+
+.btn-copiar {
+    width: 328px;
+    height: 67px;
+    border: 1px solid #282A3A;
+    border-radius: 24px;
+    background-color: #282A3A;
+    color: #C69749;
+}
+
+.btn-copiar:hover {
+    width: 330px;
+    height: 70px;
+}
+
+footer {
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 16px;
+    display: flex;
+    gap: 2rem;
+    border-top: 1px solid #C69749;
+}
+
+.contatos {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+}
