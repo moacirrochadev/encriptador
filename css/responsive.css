@@ -1,1 +1,44 @@
-@media screen and (max-width: 650px) {}
+@media screen and (max-width: 620px){
+    .conteiner{
+        margin: 16px auto 16px;
+        display: flex;
+        flex-direction: column;
+        height: 933px;
+    }
+
+    .esquerda{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
+    .text-area{
+        width: 333px;
+        height: 200px;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 343px;
+        height: 158px;
+        margin: 16px auto;
+    }
+
+    button{
+        width: 343px;
+        height: 67px;
+    }
+
+    .direita {
+        width: 370px;
+        margin: 16px auto;
+    }
+
+    .imagem {
+        display: none;
+    }
+}
